@@ -4,7 +4,7 @@
   <title><![CDATA[sunchen's blog]]></title>
   <link href="http://sjerrys.github.com/blog/atom.xml" rel="self"/>
   <link href="http://sjerrys.github.com/blog/"/>
-  <updated>2011-12-21T17:03:06+08:00</updated>
+  <updated>2011-12-21T17:06:17+08:00</updated>
   <id>http://sjerrys.github.com/blog/</id>
   <author>
     <name><![CDATA[sunchen]]></name>
@@ -12,5 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[octopress+github安装记录]]></title>
+    <link href="http://sjerrys.github.com/blog/blog/2011/12/21/another-new-octopussy/"/>
+    <updated>2011-12-21T11:19:00+08:00</updated>
+    <id>http://sjerrys.github.com/blog/blog/2011/12/21/another-new-octopussy</id>
+    <content type="html"><![CDATA[<ul>
+<li>在github上创建两个repository， 一个用于保存发布后的帖子，名字可以叫blog, 另一个存放帖子源文件。</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rvm install 1.9.2 //使用ruby1.9.2
+</span><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress  
+</span><span class='line'>gem install bundler
+</span><span class='line'>bundle install
+</span><span class='line'>bundle exec rake install</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>如何发布帖子，可以参考<a href="http://octopress.org/docs/blogging/">这里</a>。zsh注意，正确的新建帖子格式：</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake "new_post[帖子标题]"</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>帖子发布完成之后，需要手动把./source push 到存放源代码的repository中去。</li>
+</ul>
+
+]]></content>
+  </entry>
   
 </feed>
