@@ -4,7 +4,7 @@
   <title><![CDATA[sunchen's blog]]></title>
   <link href="http://sjerrys.github.com/blog/atom.xml" rel="self"/>
   <link href="http://sjerrys.github.com/blog/"/>
-  <updated>2011-12-21T11:41:21+08:00</updated>
+  <updated>2011-12-21T16:59:16+08:00</updated>
   <id>http://sjerrys.github.com/blog/</id>
   <author>
     <name><![CDATA[sunchen]]></name>
@@ -12,14 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[another new octopussy]]></title>
-    <link href="http://sjerrys.github.com/blog/blog/2011/12/21/another-new-octopussy/"/>
-    <updated>2011-12-21T11:19:00+08:00</updated>
-    <id>http://sjerrys.github.com/blog/blog/2011/12/21/another-new-octopussy</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
 </feed>
